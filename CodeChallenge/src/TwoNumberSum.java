@@ -25,9 +25,16 @@ public class TwoNumberSum {
 
 
 	public static void main(String[] args) {
-        Integer [ ] arrayIntegers = {2,-7,4,8,-11};
-        Integer targetSum = -18;
-		System.out.print(TwoNumberSum.getArrayTwoNumberSum(Arrays.asList(arrayIntegers), targetSum));
+        //Test 1
+		Integer [ ] arrayIntegers = {3,5,-4,8,11,1,-1,6};
+        Integer targetSum = 10;
+		System.out.println(TwoNumberSum.getArrayTwoNumberSum(Arrays.asList(arrayIntegers), targetSum));
+		
+		//Test 2
+		Integer [ ] arrayIntegers2 = {2,-7,4,8,-11};
+        targetSum = 56;
+        System.out.println(TwoNumberSum.getArrayTwoNumberSum(Arrays.asList(arrayIntegers2), targetSum));
+		
 	}
 
 }
